@@ -102,7 +102,6 @@ get_multiple_movie_recommendations_list(['Spy Kids', 'Avatar'])
 - The following output recommendations are obtained for the movies **Spy Kids** and **Avatar**
 - The results can also be seen in the file ```results/recommended_movie_data_file.html```
 
-|||
 |--- |--- |
 |Index|Movie Title|
 |1|Spy Kids 2: The Island of Lost Dreams|

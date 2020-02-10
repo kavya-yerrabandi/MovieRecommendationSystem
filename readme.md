@@ -5,7 +5,7 @@ Instagram and movie recommendations in netflix etc. Data plays a key role in bui
 above areas. This is a simple project which experiments on movie recommendation techniques using python data processing 
 packages.
 
-### Data
+## Data
 The dataset has been obtained from https://www.kaggle.com/tmdb/tmdb-movie-metadata#tmdb_5000_movies.csv. 
 It mainly consists of the following columns:
 - budget
@@ -127,12 +127,12 @@ get_multiple_movie_recommendations_list(['Spy Kids', 'Avatar'])
 |9|Obitaemyy Ostrov|
 |10|Tears of the Sun|
 
-### Conclusion
+## Conclusion
 While this recommendation system works for a simple data set it is 
 a good idea to implement a hybrid recommendation system which is a 
 mix of content based and collaborative systems for better results.
 
-### Setup
+## Setup
 
 Download the project or clone it using 
 ```
@@ -149,7 +149,7 @@ pip3 install -r requirements.txt
 - Run the **movie_recommendation_system.py** file to obtain the results and the files generated can be
 viewed in the **results** folder
 
-### References
+## References
 - https://medium.com/code-heroku/building-a-movie-recommendation-engine-in-python-using-scikit-learn-c7489d7cb145
 - https://www.kaggle.com/tmdb/tmdb-movie-metadata
 - https://matplotlib.org/api/_as_gen/matplotlib.pyplot.barh.html

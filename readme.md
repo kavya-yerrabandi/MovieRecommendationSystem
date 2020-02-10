@@ -1,5 +1,9 @@
 ## Introduction
-This is a simple project which experiments on movie recommendation techniques using python data processing packages
+Recommendation systems are used everywhere in today's day and age as a part of online advertising. Some simple 
+examples can be friend recommendations on facebook, recommendation of similar items in shopping websites, ads in 
+Instagram and movie recommendations in netflix etc. Data plays a key role in building relevant systems in all the
+above areas. This is a simple project which experiments on movie recommendation techniques using python data processing 
+packages.
 
 ### Data
 The dataset has been obtained from https://www.kaggle.com/tmdb/tmdb-movie-metadata#tmdb_5000_movies.csv. 
@@ -25,6 +29,12 @@ It mainly consists of the following columns:
 - vote_average
 - vote_count
 
+## Methods:
+Two methods have been used in order to generate recommendations.
+
+1. Popularity based
+2. Content based
+
 ### Recommendation based on Popularity
 The following code is used to get a list of popular movies:
 ```
@@ -40,6 +50,7 @@ plt.show()
 plt.draw()
 fig1.savefig('popular_movies.png')
 ```
+#### Result:
 Here is the output showing the most popular movies:
 ![List of popular movies](results/popular_movies.png)
 
@@ -99,6 +110,7 @@ final_movie_list = get_multiple_movie_recommendations_list(['Spy Kids', 'Avatar'
 get_multiple_movie_recommendations_list(['Spy Kids', 'Avatar'])
 ```
 
+#### Result:
 - The following output recommendations are obtained for the movies **Spy Kids** and **Avatar**
 - The results can also be seen in the file ```results/recommended_movie_data_file.html```
 
@@ -134,6 +146,8 @@ cd <path_to_project>/MovieRecommendationSystem
 ```
 pip3 install -r requirements.txt
 ```
+- Run the **movie_recommendation_system.py** file to obtain the results and the files generated can be
+viewed in the **results** folder
 
 ### References
 - https://medium.com/code-heroku/building-a-movie-recommendation-engine-in-python-using-scikit-learn-c7489d7cb145

@@ -1,8 +1,8 @@
 ## Introduction
-This is a simple project which experiments on various movie recommendation techniques using python data processing packages
+This is a simple project which experiments on movie recommendation techniques using python data processing packages
 
 ### Data
-The dataset has been obtained from https://www.kaggle.com/tmdb/tmdb-movie-metadata#tmdb_5000_movies.csv
+The dataset has been obtained from https://www.kaggle.com/tmdb/tmdb-movie-metadata#tmdb_5000_movies.csv. 
 It mainly consists of the following columns:
 - budget
 - genres
@@ -26,7 +26,7 @@ It mainly consists of the following columns:
 - vote_count
 
 ### Recommendation based on Popularity
-The following code is used to get a list of popular movies
+The following code is used to get a list of popular movies:
 ```
 popular = movie_data.sort_values('popularity', ascending=False)
 plt.figure(figsize=(12, 4))
@@ -40,6 +40,7 @@ plt.show()
 plt.draw()
 fig1.savefig('popular_movies.png')
 ```
+Here is the output showing the most popular movies:
 ![List of popular movies](results/popular_movies.png)
 
 ### Recommendation based on Content
